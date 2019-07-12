@@ -93,7 +93,7 @@
                 .outerRadius(this._outerRad);
 
             var guageArc = this._svgContainer.append("path")
-                .datum({endAngle: this._endAngleDeg * (pi/180), startAngle: this._startAngleDeg * (pi/180)})
+                .datum({endAngle: this._endAngleDeg * (pi/360), startAngle: this._startAngleDeg * (pi/360)})
                 .style("fill", this._displayedColor)
                 .attr("width", this._widgetWidth).attr("height", this._widgetWidth) // Added height and width so arc is visible
                 .attr("transform", "translate(" + this._outerRad + "," + this._outerRad + ")")
