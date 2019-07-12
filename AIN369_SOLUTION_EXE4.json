@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-teched-gauge-solution-exe4",
-            "url": "https://sapteched2019ain369.github.io/AIN369_SOLUTION_EX4/webcomponent.js",
+            "url": "https://github.com/godanramane/gauge/blob/master/webcomponent.js",
 			"properties": [
 				"angleMax"
 			],
@@ -22,7 +22,7 @@
 		{
 			"kind": "styling",
 			"tag": "com-sap-teched-gauge-solution-exe4-aps",
-            "url": "https://sapteched2019ain369.github.io/AIN369_SOLUTION_EX4/aps_webcomponent.js",
+            "url": "https://github.com/godanramane/gauge/blob/master/aps_webcomponent.js",
 			"properties": [
 			],
 			"integrity": "",
