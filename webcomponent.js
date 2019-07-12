@@ -37,7 +37,7 @@
     
             this._outerRad = 0.0;
             this._endAngleDeg = 0.0;
-            this._endAngleDegMax = 100.0;
+            this._endAngleDegMax = 90.0;
             this._startAngleDeg = -145.0;
             const bcRect = this.getBoundingClientRect();
             this._widgetHeight = bcRect.height;
