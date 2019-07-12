@@ -62,7 +62,7 @@
             this.redraw();
         };
 
-        //Getters and Setters
+        //Getters and Setters 
         get angleMax() {
             return this._endAngleDeg;
         }
