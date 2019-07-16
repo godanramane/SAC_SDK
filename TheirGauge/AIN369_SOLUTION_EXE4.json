@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-teched-gauge-solution-exe4",
-            "url": "https://raw.githubusercontent.com/godanramane/SAC_SDK/master/TheirGauge/webcomponent.js",
+            "url": "https://godanramane.github.io/SAC_SDK/TheirGauge/webcomponent.js",
 			"properties": [
 				"angleMax"
 			],
@@ -22,7 +22,7 @@
 		{
 			"kind": "styling",
 			"tag": "com-sap-teched-gauge-solution-exe4-aps",
-            "url": "https://raw.githubusercontent.com/godanramane/SAC_SDK/master/TheirGauge/aps_webcomponent.js",
+            "url": "https://godanramane.github.io/SAC_SDK/TheirGauge/aps_webcomponent.js",
 			"properties": [
 			],
 			"integrity": "",
