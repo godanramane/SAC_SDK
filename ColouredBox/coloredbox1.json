@@ -12,14 +12,14 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-sample-coloredbox",
-			"url": "https://github.com/godanramane/SAC_SDK/blob/master/ColouredBox/ColoredBox.js",
+			"url": "https://godanramane.github.io/SAC_SDK/ColouredBox/ColoredBox.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-sap-sample-coloredbox-aps",
-			"url": "https://github.com/godanramane/SAC_SDK/blob/master/ColouredBox/ColoredBoxAps.js",
+			"url": "https://godanramane.github.io/SAC_SDK/ColouredBox/ColoredBoxAps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
