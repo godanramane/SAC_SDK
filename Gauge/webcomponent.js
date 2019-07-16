@@ -44,7 +44,7 @@
             this._widgetWidth = bcRect.width;
             
             //Guide Lines
-            this._ringColorCode = 'blue';
+            this._ringColorCode = 'red';
             this._guideOpacity = 0.75;
             this._ringThickness = 5;
             this._bracketThickness = 5;
