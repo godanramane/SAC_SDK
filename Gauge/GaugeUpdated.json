@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-infy-gauge-solution-ex",
-            "url": "https://github.com/godanramane/gauge/blob/master/webcomponent.js",
+            "url": "https://github.com/godanramane/SAC_SDK/blob/master/Gauge/webcomponent.js",
 			"properties": [
 				"angleMax"
 			],
@@ -22,7 +22,7 @@
 		{
 			"kind": "styling",
 			"tag": "com-sap-infy-gauge-solution-ex-aps",
-            "url": "https://github.com/godanramane/gauge/blob/master/aps_webcomponent.js",
+            "url": "https://github.com/godanramane/SAC_SDK/blob/master/Gauge/aps_webcomponent.js",
 			"properties": [
 			],
 			"integrity": "",
