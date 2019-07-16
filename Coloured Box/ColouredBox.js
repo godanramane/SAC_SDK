@@ -4,7 +4,7 @@
 		<style>
 		:host {
 			border-radius: 25px;
-			border-width: 4px;
+			border-width: 3px;
 			border-color: black;
 			border-style: solid;
 		} 

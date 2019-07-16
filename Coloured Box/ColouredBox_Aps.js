@@ -7,7 +7,7 @@
 				<table>
 					<tr>
 						<td>Color</td>
-						<td><input id="aps_color" type="text" size="40" maxlength="40"></td>
+						<td><input id="aps_color" type="text" size="42" maxlength="42"></td>
 					</tr>
 				</table>
 			</fieldset>
