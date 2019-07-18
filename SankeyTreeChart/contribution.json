@@ -7,19 +7,19 @@
 	"name": "Sankey Tree Chart",
 	"newInstancePrefix": "SankeyTreeChart",
 	"description": "A Proportional Tree Flow Chart",
-	"icon": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/SankeyTreeChart/icon.png",
+	"icon": "https://godanramane.github.io/SAC_SDK/SankeyTreeChart/icon.png",
 	"webcomponents": [
 		{
 			"kind": "main",
 			"tag": "sdk-stc",
-			"url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/SankeyTreeChart/main-webcomponent.js",
+			"url": "https://godanramane.github.io/SAC_SDK/SankeyTreeChart/main-webcomponent.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "sdk-stc-aps",
-			"url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/SankeyTreeChart/styling-webcomponent.js",
+			"url": "https://godanramane.github.io/SAC_SDK/SankeyTreeChart/styling-webcomponent.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
