@@ -1,0 +1,116 @@
+{
+	"eula": "",
+	"vendor": "SAP",
+	"license": "",
+	"id": "com.sap.sankeytreechart",
+	"version": "0.1.0",
+	"name": "Sankey Tree Chart",
+	"newInstancePrefix": "SankeyTreeChart",
+	"description": "A Proportional Tree Flow Chart",
+	"icon": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/SankeyTreeChart/icon.png",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "sdk-stc",
+			"url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/SankeyTreeChart/main-webcomponent.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "styling",
+			"tag": "sdk-stc-aps",
+			"url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/SankeyTreeChart/styling-webcomponent.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"backgroundColor": {
+			"type": "string",
+			"description": "The color of the background",
+			"default": "#ffffff"
+		},
+		"width": {
+			"type": "int",
+			"default": 500
+		},
+		"height": {
+			"type": "int",
+			"default": 500
+		},
+		"graphColor": {
+			"type": "string",
+			"default": "#5899da"
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#666666"
+		},
+		"rootHeight": {
+			"type": "int",
+			"default": "300"
+		},
+		"padding": {
+			"type": "int",
+			"default": "10"
+		},
+		"columnWidth": {
+			"type": "int",
+			"default": "200"
+		},
+		"direction": {
+			"type": "string",
+			"default": "ltr"
+		},
+		"data": {
+			"type": "any"
+		},
+		"selection": {
+			"type": "+Selection"
+		},
+		"dimensionMembers": {
+			"type": "+MemberInfo[]"
+		}
+	},
+	"methods": {
+		"setData": {
+			"description": "Set the data",
+			"parameters": [
+				{
+					"name": "value",
+					"type": "any",
+					"description": "The new data"
+				}
+			],
+			"body": "this.data = value;"
+		},
+		"getSelection": {
+			"description": "get the currently selected node",
+			"returnType": "+Selection",
+			"parameters": [],
+			"body": "return this.selection;"
+		},
+		"setDimensionsMembers": {
+			"parameters": [{
+				"name": "value",
+				"type": "+MemberInfo[]"
+			}],
+			"body": "this.dimensionMembers = value;"
+		},
+		"update": {
+			"description": "Rerenders the chart",
+			"parameters": []
+		}
+	},
+	"events": {
+		"onSelect": {
+			"description": "This event is fired, when the user selects a node in the chart."
+		},
+		"onHover": {
+			"description": "This event is fired, when the cursor enters a node in the chart."
+		},
+		"onBlur": {
+			"description": "This event is fired, when the cursor leaves a node in the chart."
+		}
+	}
+}
